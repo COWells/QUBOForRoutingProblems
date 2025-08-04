@@ -1,5 +1,6 @@
 
 This project was created for ECM3401: Individual Literature Review and Project by Charlie W.
+For more information about QUBOs and a written report, please view the **ReportFiles** directory
 
 This program contains various algorithms to solve the travelling salesman and vehicle routing problem.
 It was designed to compare the accuracy and efficiency of QUBO formulations in comparison with three classical algorithms.
@@ -34,4 +35,5 @@ python main.py "customFile.txt" 3
 
 python main.py 6 -b
 > This will randomly create a graph with 6 cities, and perform TSP on it with 1 vehicle (as the numberOfVehicles was not supplied).
+
 > This will also invoke the brute force algorithm to obtain an optimal solution, due to the -b flag included.
